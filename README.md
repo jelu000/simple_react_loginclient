@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The simple_react_loginclient can be tested with my backend server: simple_express_loginserver that can be pulled from my Github.
+
+This is made from this tutorial: https://www.digitalocean.com/community/tutorials/how-to-add-login-authentication-to-react-applications
+
+I have made some chnges in th orginal script to the username, password and the folder structure.
+
+I have comment away session storage for testing in useToken.js line 16
+
+//OBS om session ska sparas ta fram detta
+//const [token, setToken] = useState(getToken());
+
+and i use:
+user = "user"
+password = "passw"
+
+to login to the server.
 
 ## Available Scripts
 
